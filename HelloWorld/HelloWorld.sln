@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Primitivetype", "Primitivet
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constants", "Constants\Constants.vcxproj", "{53CBF8B8-06B8-4E1B-9FF1-3FAB22ED46E4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArraysAndVectors", "ArraysAndVectors\ArraysAndVectors.vcxproj", "{DECFFD6A-619E-4750-9418-C97B41720415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{53CBF8B8-06B8-4E1B-9FF1-3FAB22ED46E4}.Release|x64.Build.0 = Release|x64
 		{53CBF8B8-06B8-4E1B-9FF1-3FAB22ED46E4}.Release|x86.ActiveCfg = Release|Win32
 		{53CBF8B8-06B8-4E1B-9FF1-3FAB22ED46E4}.Release|x86.Build.0 = Release|Win32
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Debug|x64.ActiveCfg = Debug|x64
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Debug|x64.Build.0 = Debug|x64
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Debug|x86.ActiveCfg = Debug|Win32
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Debug|x86.Build.0 = Debug|Win32
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Release|x64.ActiveCfg = Release|x64
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Release|x64.Build.0 = Release|x64
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Release|x86.ActiveCfg = Release|Win32
+		{DECFFD6A-619E-4750-9418-C97B41720415}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
