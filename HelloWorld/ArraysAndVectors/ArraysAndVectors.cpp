@@ -38,16 +38,46 @@ int main()
 
 	//Vector name
 
-	vector<char> vowels{ 'a','e','i','o','u' };
+	vector<char> vowels1{'a','e','i','o','u'};
 
-	cout << vowels[0] << endl;
-	cout << vowels[4] << endl;
+	cout << vowels1[0] << endl;
+	cout << vowels1[4] << endl;
 
 	vector<int> test_scores1{ 100,98,89 };
 
 	cout << "\n First score at index 0:" << test_scores1[0] << endl;
 	cout << "Secound score at index 1:" << test_scores1[1] << endl;
 	cout << "Third score at index 2:" << test_scores1[2] << endl;
+
+	cout << test_scores1.at(0) << endl;
+	cout << test_scores1.at(1) << endl;
+	cout << test_scores1.at(2) << endl;
+	cout << "\n there are"<<test_scores1.size()<<"score in the vector" << endl;
+
+	int score_to_add(0);
+	cin >> score_to_add;
+	test_scores1.push_back(score_to_add);
+
+	//Examble of 2D vector
+	vector <vector<int>> movie_ratings
+	{
+		{1,2,3,4},
+		{1,2,4,4},
+		{1,3,4,5},
+	};
+
+	cout << movie_ratings[0][0] << endl;
+	cout << movie_ratings[0][1] << endl;
+	cout << movie_ratings[0][2] << endl;
+	cout << movie_ratings[0][3] << endl;
+
+
+	
+
+	
+
+
+
 
 
 }
