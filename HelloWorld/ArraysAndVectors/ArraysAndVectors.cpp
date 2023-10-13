@@ -37,7 +37,7 @@ int main()
 	cout << "fifth score at index 4:" << test_score[4] << endl;
 
 	//Vector name
-
+	 
 	vector<char> vowels1{'a','e','i','o','u'};
 
 	cout << vowels1[0] << endl;
