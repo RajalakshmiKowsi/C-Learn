@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\C++\C-Learn\HelloWorld\x64\Debug\ArraysAndVectors.exe</FullPath>
+      <FullPath>C:\C++\C-Learn\Sample\x64\Debug\ArraysAndVectors.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

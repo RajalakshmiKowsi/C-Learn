@@ -1,3 +1,1 @@
-﻿  Primitivetype.cpp
-C:\C++\C-Learn\HelloWorld\Primitivetype\Primitivetype.cpp(35,28): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Primitivetype.vcxproj -> C:\C++\C-Learn\HelloWorld\x64\Debug\Primitivetype.exe
+﻿  Primitivetype.vcxproj -> C:\C++\C-Learn\Sample\x64\Debug\Primitivetype.exe
