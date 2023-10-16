@@ -4,9 +4,15 @@
 #include <iostream>
 #include<cmath>
 #include<ctime>
-
+#include<vector>
 using namespace std;
+
 const double pi{ 3.14159 };
+
+void pass_by_value1(int num);
+void pass_by_value2(string s);
+void pass_by_value3(vector<string> v);
+void print_vector(vector<string> v);
 
 double calc_area_circle(double radius) {
 	return pi * radius * radius;
@@ -34,6 +40,12 @@ void volume_cylinder() {
 
 	cout << "The volume of a cylinder with radius " << radius << " and height " << height << " is " << calc_volume_cylinder(radius, height) << endl;
 }
+int returnvalue()
+{
+	
+	return 5; 
+}
+
 int main()
 {
 	double num{};
@@ -66,5 +78,8 @@ int main()
 	area_circle();
 	area_circle();
 	volume_cylinder();
+	std::cout << returnvalue() << '\n'; // prints 5
+	std::cout << returnvalue() + 2 << '\n'; // prints 7
 
+	
 }
