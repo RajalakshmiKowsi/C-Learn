@@ -53,7 +53,7 @@ int main()
 	cout << test_scores1.at(1) << endl;
 	cout << test_scores1.at(2) << endl;
 	cout << "\n there are"<<test_scores1.size()<<"score in the vector" << endl;
-
+	test_scores1.at(size(test_scores1)-1) = 10;
 	int score_to_add(0);
 	cin >> score_to_add;
 	test_scores1.push_back(score_to_add);

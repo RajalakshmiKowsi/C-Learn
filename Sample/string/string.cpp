@@ -146,5 +146,30 @@ int main()
 
 			cout << endl;
 
+
+			string str1{};
+			string str2{"APPLE"};
+			string str3{"Banana"};
+			string str4{"Kiwi"};
+			string str5{"apple"};
+			string str6{str1};
+			string str7{str1,0,3};
+			string str8{10,'x'};
+			cout << str1 << endl;
+
+			cout << str1.length() << endl;
+			cout << str1 << "==" << str5 << ":" << (str1 == str5) << endl;
+			str1 = "Watermelon";
+			cout << str1.length() << endl;
+			str2 = str1;
+			str3 = "Frank";
+			str3[0] = 'P';
+			cout << str3 << endl;
+			str3.at(0) = 'C';
+			cout << str3 << endl;
+			str3 = str5 + "and" + str2 + "Juice";
+
+
+
 }
 

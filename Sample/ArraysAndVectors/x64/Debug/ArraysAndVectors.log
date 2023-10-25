@@ -1,1 +1,2 @@
-﻿  ArraysAndVectors.vcxproj -> C:\C++\C-Learn\Sample\x64\Debug\ArraysAndVectors.exe
+﻿  ArraysAndVectors.cpp
+C:\C++\C-Learn\Sample\ArraysAndVectors\ArraysAndVectors.cpp(50,53): error C2059: syntax error: '['
