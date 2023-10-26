@@ -3,6 +3,132 @@
 
 #include <iostream>
 using namespace std;
+class Room {
+public:
+    double length;
+    double breadth;
+    double height;
+
+    double calculateArea() {
+        return length * breadth;
+    }
+
+    double calculateVolume() {
+        return length * breadth * height;
+    }
+
+};
+class implementAbs {
+private:
+    int a, b;
+
+public:
+
+    void set(int x, int y)
+    {
+        a = x;
+        b = y;
+    }
+
+    void display()
+    {
+        cout << "a = " << a << endl;
+        cout << "b = " << b << endl;
+    }
+};
+//class DateMember
+//{
+//public:
+//    DateMember(int mn, int dy, int yr);
+//    int getMonth() const;     // A read-only function
+//    void setMonth(int mn);   // A write function; can't be const
+//private:
+//    int month;
+//};
+//
+//int DateMember::getMonth() const
+//{
+//    return month;        // Doesn't modify anything
+//}
+//void DateMember::setMonth(int mn)
+//{
+//    month = mn;          // Modifies data member
+//}
+
+class A {
+public:
+    A()
+    {
+        cout << "A's Constructor Called " <<
+            endl;
+    }
+};
+
+class B {
+    static A a;
+
+public:
+    B()
+    {
+        cout << "B's Constructor Called " <<
+            endl;
+    }
+};
+class Point {
+private:
+    int x, y;
+
+public:
+    // Parameterized Constructor
+    Point(int x1, int y1)
+    {
+        x = x1;
+        y = y1;
+    }
+
+    int getX() { return x; }
+    int getY() { return y; }
+};
+
+class Defaultconstruct {
+public:
+    int a, b;
+
+    // Default Constructor
+    Defaultconstruct()
+    {
+        a = 10;
+        b = 20;
+    }
+};
+class ImplementAbs {
+private:
+    int a, b;
+
+public:
+
+    void set(int x, int y)
+    {
+        a = x;
+        b = y;
+    }
+
+    void display()
+    {
+        cout << "a = " << a << endl;
+        cout << "b = " << b << endl;
+    }
+};
+
+class Encap {
+private:
+    int x;
+
+public:
+
+    void set(int a) { x = a; }
+    int get() { return x; }
+};
 void SumNum(int A, int B)
 {
     cout << endl << "SUMNUM is : " << A + B;
@@ -28,7 +154,7 @@ int main() {
     cout << obj.get();
     cout << result << endl;
 
-    implementAbs obj1;
+    ImplementAbs obj1;
     obj1.set(10, 20);
     obj1.display();
     Defaultconstruct c;
@@ -47,121 +173,21 @@ int main() {
     SumNum(1, 2, 3);
     SumNum(1, 2, 3, 4);
 
-    DateMember MyDate(7, 4, 1992);
-    const DateMember BirthDate(1, 18, 1945);
-    MyDate.setMonth(4);    // Okay
-    BirthDate.getMonth();    // Okay
-}
-class Encap {
-private:
-    int x;
-
-public:
-    
-    void set(int a) { x = a; }
-    int get() { return x; }
-};
-
-class implementAbs {
-private:
-    int a, b;
-
-public:
-    
-    void set(int x, int y)
-    {
-        a = x;
-        b = y;
-    }
-
-    void display()
-    {
-        cout << "a = " << a << endl;
-        cout << "b = " << b << endl;
-    }
+    //DateMember MyDate(7, 4, 1992);
+    //const DateMember BirthDate(1, 18, 1945);
+    //MyDate.setMonth(4);    // Okay
+    //BirthDate.getMonth();    // Okay
 };
 
 
- class Room {
-public:
-    double length;
-    double breadth;
-    double height;
 
-    double calculateArea() {
-        return length * breadth;
-    }
 
-    double calculateVolume() {
-        return length * breadth * height;
-    }
 
-};
 
- class Defaultconstruct {
- public:
-     int a, b;
 
-     // Default Constructor
-     Defaultconstruct()
-     {
-         a = 10;
-         b = 20;
-     }
- };
+ 
 
- class Point {
- private:
-     int x, y;
+ 
+ 
 
- public:
-     // Parameterized Constructor
-     Point(int x1, int y1)
-     {
-         x = x1;
-         y = y1;
-     }
-
-     int getX() { return x; }
-     int getY() { return y; }
- };
-
- class A {
- public:
-     A()
-     {
-         cout << "A's Constructor Called " <<
-             endl;
-     }
- };
-
- class B {
-     static A a;
-
- public:
-     B()
-     {
-         cout << "B's Constructor Called " <<
-             endl;
-     }
- };
-
- class DateMember
- {
- public:
-     DateMember(int mn, int dy, int yr);
-     int getMonth() const;     // A read-only function
-     void setMonth(int mn);   // A write function; can't be const
- private:
-     int month;
- };
-
- int DateMember::getMonth() const
- {
-     return month;        // Doesn't modify anything
- }
- void DateMember::setMonth(int mn)
- {
-     month = mn;          // Modifies data member
- }
  
